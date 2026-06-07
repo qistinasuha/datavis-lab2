@@ -177,22 +177,4 @@ elif page == "4. SDG Reflection":
 
     st.altair_chart(bar, use_container_width=True)
 
-    st.subheader("SDG Reflection")
-    st.write(f"""
-    The visualizations above explore **{selected_goal}** across countries over time.
-    The line chart tracks progress for the top 5 performing countries, revealing whether
-    improvements are consistent or fluctuating across years. The bar chart below identifies
-    the top 20 countries for this specific goal in {latest_year}.
-
-    The UN Sustainable Development Goals represent a global commitment to ending poverty,
-    protecting the planet, and ensuring prosperity for all by 2030. The SDG framework
-    recognizes that no single goal can be achieved in isolation — progress on education
-    (SDG 4) supports better health outcomes (SDG 3), which in turn drives economic growth
-    (SDG 8). Data consistently shows that wealthier nations with stronger institutions
-    outperform developing countries on most SDG indicators. This inequality underscores
-    the urgent need for international cooperation, targeted investment, and technology
-    transfer to support lower-income nations. Without bridging these gaps, achieving
-    the 2030 Agenda will remain aspirational rather than a measurable reality for
-    billions of people worldwide, particularly those in Sub-Saharan Africa and South Asia
-    who face the most pressing development challenges.
-    """)
+    
